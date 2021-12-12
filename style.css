@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --cor-fundo:#EAEAEA;
+    --cor-receita: #FFFFFF;
+    --cor-tituloEsubtitulos: #1B1B1B;
+    --cor-footerElegendaImg: #8F8F8F;
+    --cor-textos: #39393A;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-textos);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 50px auto 10px;
+}
+
+main{
+    background-color: var(--cor-receita);
+    display: inline-grid;
+    padding: 20px 25px 0;
+    border-radius: 10px;
+}
+
+h1, h2{
+    color: var(--cor-tituloEsubtitulos);
+    margin: 10px auto;
+}
+h1{
+    font-size: 28px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 20px;
+}
+
+li, p{
+    font-size: 16px;
+    text-align: start;
+}
+li{
+    margin-bottom: 25px;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
+ol{
+    line-height: 26px;
+}
+
+figure{
+    text-align: right;
+    color: var(--cor-footerElegendaImg);
+    font-size: 12px;
+}
+figure img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+footer .agradecimento{
+    text-align: center;
+    color: var(--cor-footerElegendaImg);
+    margin: 50px auto 10px;
+    font-size: 12px;
+}
